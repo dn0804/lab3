@@ -7,7 +7,7 @@
 
 # Part 2
 
-## Reverse In Place bug
+## Reverse In Place bug (Array Tests)
 
 Failure-inducing input:
 
@@ -26,3 +26,16 @@ Bug:
 Fixed code:
 
 ![Image](fixedreverseinplace.jpg)
+
+## Linked List Example bug
+
+The linked list bug was found in the append() function. I'm not quite sure of which line of code seems to be causing the issue, but it results in an out of memory error.
+
+Failure-inducing input:
+
+![Image](linkedlisttest2.JPG)
+
+Symptom:
+
+![Image](linkedlisttest.JPG)
+
