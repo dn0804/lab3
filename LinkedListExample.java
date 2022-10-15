@@ -96,8 +96,10 @@ class LinkedListExample{
         LinkedList ll = new LinkedList();
           int n = 5;
         for (int i = 0; i < n; i++) {
-        ll.prepend(i);
+        ll.append(i);
         }
+        System.out.println(ll.first());
+        System.out.println(ll.last());
     }
      
 
