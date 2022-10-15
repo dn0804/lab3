@@ -6,11 +6,12 @@ public class LinkedListTests {
     @Test
     public void testAppend() {
         LinkedList input1 = new LinkedList();
-        int n = 5;
-        for (int i = 0; i < n; i++) {
-        input1.append(i);
-        }
-        assertEquals(input1.first(), 0);
+        input1.append(5);
+        input1.append(7);
+        input1.append(9);
+        input1.append(2);
+
+        assertEquals("5, 7, 9, 2", input1.toString());
         
     }
 
