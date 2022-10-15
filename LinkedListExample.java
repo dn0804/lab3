@@ -1,6 +1,7 @@
 
 import java.util.NoSuchElementException;
 
+
 class Node {
     int value;
     Node next;
@@ -88,4 +89,16 @@ class LinkedList {
         }
         return i;
     }
+}
+
+class LinkedListExample{
+    public static void main (String [] args){
+        LinkedList ll = new LinkedList();
+          int n = 5;
+        for (int i = 0; i < n; i++) {
+        ll.prepend(i);
+        }
+    }
+     
+
 }
